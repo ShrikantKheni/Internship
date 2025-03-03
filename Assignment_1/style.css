@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container .top-section {
+  background-color: aqua;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.container .top-section span {
+  font-size: 16px;
+}
+.container .top-section input {
+  padding: 2px;
+  font-size: 10px;
+  width: 250px;
+  height: 12px;
+}
+.container .top-section button {
+  width: 170px;
+  padding: 2px;
+  font-size: 12px;
+  background-color: orange;
+  border: 0px;
+  color: lemonchiffon;
+}
+.container .middle-section .first-section {
+  display: flex;
+  padding: 20px;
+}
+.container .middle-section .first-section .text,
+.container .middle-section .first-section .list {
+  width: 50%;
+}
+.container .middle-section .first-section .text h1 {
+  color: #eb9c00;
+}
+.container .middle-section .first-section .text p {
+  width: 50%;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.container .middle-section .first-section .list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.container .middle-section .first-section .list ul li {
+  padding: 2px;
+  border: 1px solid #ffa502;
+  width: 70px;
+  font-size: 17px;
+  text-align: center;
+  display: inline-block;
+}
+.container .middle-section .second-section {
+  margin-top: 25px;
+}
+.container .middle-section .second-section ul {
+  display: flex;
+  gap: 20px;
+  padding: 0 40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .middle-section .second-section li .product img {
+  width: 300px;
+  height: 300px;
+}
+.container .middle-section .last-section {
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.container .middle-section .last-section button {
+  border-color: orange;
+  width: 140px;
+}
+.container .bottom-section {
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+}
+.container .bottom-section .image img {
+  width: 400px;
+  height: 400px;
+}
+.container .bottom-section .text .first {
+  margin-left: 450px;
+}
+.container .bottom-section .text .first button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-color: #ffa502;
+  width: 130px;
+  color: #ffa502;
+  padding: 7px;
+  font-size: 17px;
+}
+.container .bottom-section .text .second {
+  margin-left: 30px;
+  font-size: 18px;
+}
+.container .bottom-section .text .third {
+  margin-top: 70px;
+  margin-left: 450px;
+}
+.container .bottom-section .text .third button {
+  border-color: #ffa502;
+  width: 130px;
+  padding: 7px;
+  font-size: 17px;
+}/*# sourceMappingURL=style.css.map */
